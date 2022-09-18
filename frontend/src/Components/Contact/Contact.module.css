@@ -1,11 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&family=Roboto+Condensed:wght@300&display=swap');
+
 .container{
     background-color: black;
-    color: white;
+    color: #7E8A97;
     width: 100vw;
     height: 100vh;
     display: flex;
     align-items: center;
     flex-direction: column;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Roboto Condensed', sans-serif;
+    
 }
 
 .headingContainer{
@@ -15,12 +21,14 @@
 }
 .headingContainer h2 span{
     color: orange;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 .sectioncenter{
     display: flex;
     width: 80vw;
     margin-top: 100px;
     height: 50vh;
+    animation: slide-right 2s ease;
 }
 .addressContainer{
     width: 50%;
@@ -58,13 +66,14 @@ left: 20px;
 width: 40%;
 }
 .socials{
-    color: white;
+    color: #7E8A97;
     border-radius: 30px;
 } 
 .formContainer{
     width: 50%;
     height: 85%;
     padding: 15px;
+    animation: slide-up 1s ease;
 }
 .formContainer .form {
     width: 100%;
@@ -82,7 +91,7 @@ width: 40%;
     padding: 10px;
     border-radius: 20px;
     background-color: #1B2430;
-    color: white;
+    color: #7E8A97;
     border: none;
 }
 .formContainer .form form .inputTextArea{
@@ -100,7 +109,7 @@ width: 40%;
     width: 100%;
     border-radius: 20px;
     background-color: #1B2430;
-    color: white;
+    color: #7E8A97;
     border: none;
 }
 .formContainer .form form .inputTextArea textarea{
@@ -109,7 +118,7 @@ width: 40%;
     width: 100%;
     border-radius: 20px;
     background-color: #1B2430;
-    color: white;
+    color: #7E8A97;
     border: none;
 }
 .formContainer .form form button{
@@ -120,8 +129,8 @@ width: 40%;
     border: 1px solid orange;
     border-radius: 30px;
     background-color: black;
-    color: white;
-    font-size: 10px;
+    color: #7E8A97;
+    font-size: 12px;
     font-weight: bold;
     width: 30%;
     text-align: center;
@@ -130,9 +139,36 @@ form button span{
     top: 0;
     right: 0;
     background-color: orange;
-    color: white;
+    color: #7E8A97;
     padding: 5px;
     border-radius: 30px;
     position: absolute;
   
+}
+form button span .icon{
+    color: white;
+}
+@keyframes slide-right{
+    0%{
+        transform:translateX(-250px)
+    }
+    100%{
+        transform:translateX(0)
+    }
+}
+@keyframes slide-up{
+    0%{
+        transform:translateY(250px)
+    }
+    100%{
+        transform:translateY(0)
+    }
+}
+@keyframes slide-Left{
+    100%{
+        transform:translateX(0)
+    }
+    0%{
+        transform:translateX(100%)
+    }
 }

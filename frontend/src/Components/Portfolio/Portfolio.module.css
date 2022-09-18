@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&family=Roboto+Condensed:wght@300&display=swap');
 .container{
     background-color: black;
     width: 100vw;
     height: auto;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 .portfolioContainer h2{
  color: white;
@@ -22,7 +24,6 @@
 .portfolioContent {
     display: flex;
     flex-direction: column;
-
 }
 .portfolioContent div{
     display: flex;
@@ -33,7 +34,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 .portfolioContent  div .description p{
     color: #AEE6E6;
@@ -53,9 +53,6 @@
     display: flex;
     flex-direction: column;
     animation: slide-Left 1.5s ease;
-}
-.portfolioContent div .image img{
-    
 }
 .portfolioContent  div .image .title{
     color: white;
@@ -88,64 +85,3 @@
         transform:translateX(100%)
     }
 }
-/* .portfolioContainer{
-    
-    justify-content: center;
-    align-items: center;
-    width: 90%;
-    height: 100vh;
-    animation: slide-up 1.5s ease;
-}
-.portfolio-container h2{
-    text-align: center;
-    margin-top: 10px;
-}
-.portfolio-container h2 span{
-    color: orange;
-}
-.portfolio-container .portfolio-navbar ul{
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    list-style: none;
-}
-.portfolio-container .portfolio-navbar ul li{
-    margin-right: 5px;
-}
-.portfolio-container .portfolio-navbar ul  #all{
-    color: orange;
-}
-.portfolio-container .portfolio-content{
-    width: 80%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    flex-wrap: wrap;
-    margin: 0 auto;
-
-}
-.portfolio-container .portfolio-content div {
-    margin: 5px;
-}
-.portfolio-container .portfolio-content div .image {
-    height: 200px;
-    width:200px;
-    margin-top: 20px;
-    
-}
-.portfolio-container .portfolio-content div .image img{
-    height: 100%;
-    width: 100%;
-    margin-right: 10px;
-    margin-bottom: 0px;
-    border: 1px solid white;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-.portfolio-container .portfolio-content div .title h4{
-    font-size: 16px;
-    margin-top: 0;
-
-} */

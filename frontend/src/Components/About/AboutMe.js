@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './About.module.css'
+import {FaDownload} from 'react-icons/fa'
 
 const AboutMe = () => {
   return (
@@ -38,7 +39,11 @@ const AboutMe = () => {
                         </tr>
                     </tbody>
                 </table>
-                <button>DOWNLOAD CV<span><a href="https://drive.google.com/file/d/1pmidLuJwLx8yX6JOnDdTCQyT__ifrKob/view?usp=sharing"><i class="fa-solid fa-download"></i></a></span></button>
+                
+                <a href="https://drive.google.com/file/d/1pmidLuJwLx8yX6JOnDdTCQyT__ifrKob/view?usp=sharing">
+                <button>DOWNLOAD CV<span><FaDownload/></span></button>
+                </a>
+            
             </div>
         </div>
      

@@ -8,12 +8,14 @@ import Address from "./Address";
 
 const Contact = () => {
   return (
-    <div className={styles.container}>
+    <div  className={styles.container}>
       <Navigation />
+      <div  className={styles.container}>
       <Header/>
       <div className={styles.sectioncenter}>
       <Address/>
       <ContactForm />
+      </div>
       </div>
        
       

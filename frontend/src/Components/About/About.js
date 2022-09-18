@@ -10,7 +10,7 @@ const About = () => {
     <div className={styles.aboutMainContainer}>
     <Navigation/>
          <AboutMe/>
-         {/* <Skills/> */}
+         <Skills/>
          <Education/>
     </div>
   )

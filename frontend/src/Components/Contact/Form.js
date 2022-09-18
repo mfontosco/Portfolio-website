@@ -77,7 +77,7 @@ const ContactForm = () => {
             SEND MESSAGE
             <span>
               <Link to="">
-                <FaTelegramPlane  size={24}/>
+                <FaTelegramPlane className={styles.icon} size={24}/>
               </Link>
             </span>
           </button>
